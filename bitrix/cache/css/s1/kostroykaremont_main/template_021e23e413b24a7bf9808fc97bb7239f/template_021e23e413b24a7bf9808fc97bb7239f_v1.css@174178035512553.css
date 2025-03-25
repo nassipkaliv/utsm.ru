@@ -1,0 +1,502 @@
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/menu/top_mobile/style.css?15930890461662*/
+
+/*.top_menu_mobile {background: rgba(0,0,0, .1) !important; margin: 0; padding: 10px 0;}*/
+
+.top_menu_mobile a{ color: white; border-top: 1px red !important;}
+.top_menu_mobile li{ color: white;  padding: 5px 10px; text-align: left;}
+
+.top_menu_mobile ul { margin:0; margin: 20px 0 !important; }
+
+.menu_mobile .navbar-toggle {float: none !important;}
+
+.menu_mobile .navbar-header button { color: white; text-transform: uppercase;}
+
+.menu_mobile .dropdown.active a.dropdown-toggle, li.active a.root-item-selected { color: rgba(0,0,0, .7); text-decoration: none; }
+
+
+.menu_mobile .navbar-header { background: none !important; border: none; }
+.menu_mobile .navbar-nav { text-transform: uppercase; font-size: 13px; text-align: left;}
+.menu_mobile .nav>li { padding: 0 10px; }
+
+.menu_mobile .dropdown-menu a { bottom-top: 1px rgba(255,255,255, .1) !important; font-size: 14px; }
+
+ 
+.menu_mobile .dropdown-menu { background: rgba(0,0,0, 0.1) !important; }
+.menu_mobile .dropdown-menu li{ padding: 0; }
+
+ .navbar-header button { display: inline-block; float: right; margin: 0; padding: 15px 10px;  }
+
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
+    color: #ffffff !important;
+   background-color: rgba(0,0,0, .2) !important;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+     border-color: rgba(0,0,0, .2) !important; 
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: rgba(0,0,0, .2) !important;
+}
+
+.menu_mobile #catalog { background: rgba(0,0,0, .2) !important; }
+
+/* End */
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/menu/top_multi/style.css?16629332083625*/
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu>.dropdown-menu {
+  top: 0 !important;
+  right: -300px;
+  width: 300px;
+  margin-top: -90px;
+  box-shadow: 0 0 20px rgba(0,0,0, .4);
+}
+
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+
+.dropdown-submenu>a:after {
+  font-family:'FontAwesome';
+  display: block;
+  content:"\f105";
+  float: right;
+  width: 0;
+  height: 0;
+  margin-right: -20px;
+  margin-top: -2px;
+}
+
+.dropdown-submenu:hover>a:after {
+  border-left-color: #fff;
+}
+
+.dropdown-submenu.pull-left {
+  float: none;
+}
+
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  -webkit-border-radius: 6px 0 6px 6px;
+  -moz-border-radius: 6px 0 6px 6px;
+  border-radius: 6px 0 6px 6px;
+}
+
+/*  Главное меню  */
+
+.main_menu_gorizontal {
+    text-transform: uppercase;
+    font-size: 12px;
+    white-space: nowrap;
+    font-family: 'light';
+    /*height: 90px;*/
+}
+
+
+
+.main_menu_gorizontal li>a{
+  padding-top: 0;
+  padding-bottom: 0;
+  color:  black;
+
+}
+
+header.small .main_menu_gorizontal {
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+
+.main_menu_gorizontal .nav-pills>li {
+    /*height: 88px;*/
+    /*line-height: 88px;*/
+
+}
+
+.small .main_menu_gorizontal .nav-pills>li {
+    /*height: 60px;*/
+    line-height: initial;
+    height: initial;
+    padding-top: 14px;
+}
+
+
+/*.main_menu_gorizontal .nav-pills>li:last-child {border-right: rgba(255,255,255, .3) dotted 1px;}*/
+
+
+.main_menu_gorizontal .nav-pills>li a:hover, .main_menu_gorizontal .nav-pills>li a:active, .main_menu_gorizontal .nav-pills>li a:focus { background:none !important;}
+.main_menu_gorizontal .nav-pills>li:hover, .main_menu_gorizontal .nav-pills>li:focus, .main_menu_gorizontal .nav-pills>li:active { background: rgba(0,0,0, .1);}
+
+.main_menu_gorizontal .nav .open>a, .nav .open>a:hover, .nav .open>a:focus {
+    background: none !important;
+    border: none !important;
+}
+.main_menu_gorizontal .nav-pills>li.active>a, .main_menu_gorizontal .nav-pills>li.active>a:hover, .main_menu_gorizontal .nav-pills>li.active>a:focus,
+.main_menu_gorizontal .nav-pills>li>a.root-item-selected {
+    color: rgba(0,0,0, .4) !important;
+    background: none !important;
+}
+
+.dropdown-menu { z-index: 10000 !important; box-shadow: 0 0 20px rgba(0,0,0, .1) !important; }
+
+.nav-pills .dropdown-menu {
+    top: 35px !important;
+}
+
+
+.small .nav-pills .dropdown-menu {
+    top: 35px !important;
+}
+
+.main_menu_gorizontal .zayavka{
+  text-align: right;
+  display: table-cell;
+  vertical-align: middle;
+  height: 60px;
+  width: 200px !important;
+}
+
+.main_menu_gorizontal .zayavka>a>span{
+border-bottom: 1px dotted #1c94c4;
+}
+
+    /* Субменю  */
+
+    .dropdown-menu li a{
+      color: black;
+    }
+      .dropdown-menu li{
+      color: black;
+      padding: 10px 20px;
+      border-top: #ddd 1px solid;
+    }
+    .dropdown-menu li:hover, .dropdown-menu li a:hover{ background: #ddd; color: black !important; }
+
+      .dropdown-menu li.item-selected>a{
+      color: rgba(0,0,0, .4) !important;
+    }
+
+    .dropdown-menu li:first-child{ border: none; }
+    .dropdown-menu {
+        left: 0;
+        border: none !important;
+        font-size: 14px;
+        text-transform: none;
+        border: 1px #ddd solid;
+       }    
+
+    /* .Субменю */
+a.root-item:hover, a.root-item:focus, a.root-item:active { background: none !important; } 
+
+.dropdown-menu>li>a:hover { background: none !important; }
+
+.dropdown-menu>.active>a, .dropdown-menu>.active>a:hover, .dropdown-menu>.active>a:focus {
+    color: #939393 !important;
+    background: none !important;
+}
+
+/*  .Главное меню */
+
+/* End */
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/breadcrumb/main/style.css?15930890461091*/
+
+.bx-breadcrumb {
+	padding: 10px 0 0px 0;
+	text-transform: uppercase;
+	color: #A0A0A0;
+	font-size: 11px;
+	display: inline-block;
+	/*border: red solid 1px;*/
+	/*float: right;*/
+	margin: 0;
+}
+
+.bx-breadcrumb a{ 
+	color: #939393; 
+	background: #EAEAEA; 
+	padding: 10px 12px 8px; 
+	display: inline-block; 
+	position: relative; 
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+.bx-breadcrumb a::after {
+    content: ''; 
+    position: absolute; /* Абсолютное позиционирование */
+    right: -28px;
+    top: 0;
+	border: 16px solid transparent;
+    border-left: 12px solid #EAEAEA;
+    width: 0;
+    height: 0;
+   }
+/*.bx-breadcrumb a:hover{ text-decoration: underline !important; }*/
+
+.bx-breadcrumb .fa {
+	color: #A0AAB0;
+	vertical-align: middle;
+	margin: 0 13px;
+}
+.bx-breadcrumb .fa-home {font-size: 13px; margin-top: 0 !important; margin-right: 5px !important; margin-left: 0 !important  }
+
+.bx-breadcrumb .bx-breadcrumb-item {
+	float: left;
+	vertical-align: middle;
+	color: #B7B7B7;
+}
+
+.bx-breadcrumb .bx-breadcrumb-item a {border-bottom: none; text-decoration: none;}
+
+
+/* End */
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/menu/left/style.css?15930890462991*/
+
+.nav-stacked>li+li {
+    margin-top: 0 !important;
+}
+
+.left_menu { 
+    margin: 0 0 25px 0;
+    /*padding: 0 10px;*/
+    border-top: 3px #EEE solid;
+    border-bottom: 3px #EEE solid;
+
+}
+
+
+.left_menu:hover { box-shadow: 0 0 20px rgba(0,0,0, .1) }
+
+.left_menu .nav>li>a {
+     color: rgba(0, 0, 0, 1);
+    /*margin-right: 40px;*/
+    font-family: 'normal';
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+
+.left_menu .nav>li { 
+    /*border-bottom: 1px solid rgba(0,0,0, .15);*/
+    border-left: 3px #EEE solid;
+    border-right: 3px #EEE solid;
+    padding: 20px 15px 18px !important;
+}
+
+.left_menu li:hover a,
+.left_menu li.active:hover a{ 
+    color: white !important; 
+}
+
+.left_menu .nav>li:last-child { border-bottom: none;}
+.left_menu .nav>li>a { padding: 0;}
+
+/*.left_menu .nav>li:hover a { color: white !important;}*/
+
+.left_menu .nav-pills>li.active>a,
+ .left_menu .nav-pills>li.active>a:hover,
+ .left_menu .nav-pills>li.active>a:focus {
+    /*color: #ffffff;*/
+    color: rgba(0,0,0, .5);
+    background: none ;
+}
+
+.left_menu .nav-pills>li>a{
+    color: rgba(0,0,0, .9);
+}
+
+.left_menu .nav-pills li:hover a{
+    color: white;
+}
+
+.left_menu .nav-pills>li>a.menu_left_text:hover, 
+.left_menu .nav-pills>li>a.menu_left_text:focus,
+ .left_menu .nav-pills>li>a.menu_left_text:active {
+    color: white;
+	background: none !important;    
+}
+
+
+.left_menu .nav-pills>li.active>a.menu_left_text, .left_menu .nav-pills>li.active>a.menu_left_text:hover, .left_menu .nav-pills>li.active>a.menu_left_text:focus {
+    color: rgba(0,0,0, .4);
+	background: none !important;
+	/*color: black;*/
+}
+
+
+a.menu_left_arrow { 
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: -4px;
+     }
+
+.menu_left_arrow .fa{ margin: 3px 5px; font-size: 16px;}
+
+a.menu_left_arrow:hover, a.menu_left_arrow:focus, a.menu_left_arrow:active { 
+    background: rgba(255,255,255, .3) !important;
+     }     
+
+.nav-pills>li.active>.menu_left_arrow {
+     background: rgba(255,255,255, .3) !important;
+     color: black;
+}     
+
+/*li.active>.menu_left_arrow:hover,
+li.active>.menu_left_arrow:active,
+li.active>.menu_left_arrow:focus
+{background: rgba(255,255,255, .3) !important;}*/
+
+.left_menu .nav-pills>li.active>a.menu_left_text, 
+.left_menu .nav-pills>li.active>a.menu_left_text:hover, 
+.left_menu .nav-pills>li.active>a.menu_left_text:focus {
+     /*color: rgba(0,0,0, .5) !important; */
+     /*background: none !important;*/
+}     
+
+.menu_left_arrow.collapsed { color: black; }
+
+/*Субменю*/
+
+.left_menu .nav-pills>li>div>ul {
+    border-top: #ddd 1px dotted;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "normal";
+    line-height: 14pt;
+
+}
+
+.left_menu .nav-pills>li>div>ul li { padding: 5px 0; }
+
+.left_menu .nav-pills>li>div>ul li a {color: rgba(0,0,0, .8); }
+.left_menu .nav-pills>li>div>ul li a:hover{color: rgba(0,0,0, .5); }
+.left_menu .nav-pills>li>div>ul li.active a { opacity: .5 }
+
+
+
+
+/* End */
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/styles.css?17415767992134*/
+h2.line, h3.line, h4.line, h5.line, h5.line { border-bottom: 1px #ddd solid; margin-bottom: 20px; padding-bottom: 5px;  font-family: 'light' !important }
+h1, h2, h3, h4, h5, h6 { font-family: "light"; }
+
+body { font-family: "light"; position: relative;
+    overflow-x: hidden;}
+
+b, strong,th { font-family: 'bold'; }
+
+.list_content { list-style: none; margin: 15px 0; }
+.list_content li:before {
+    font-family: "FontAwesome";
+    content:"\f105";
+    padding: 2px 7px 0 0;
+}
+
+
+img.content_img_responsive {}
+
+
+
+.list_content li { line-height: 16pt; margin-bottom: 8px;}
+
+.content_vagno, .content_info , .content_contact {
+	padding: 20px 20px 20px 70px;
+	position: relative;
+/*	border-top: #E9E1E1 2px solid;
+	border-bottom: #E9E1E1 2px solid;*/
+	margin: 20px 0 20px 0;
+    border-radius: 3px;
+    /*font-family: "normal";*/
+}
+
+	.content_vagno:before, .content_info:before, .content_contact:before {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    /*color: #F17878;*/
+    color: white;
+    font-family: "FontAwesome";
+    font-size: 43px;
+    line-height: 43px;
+    text-shadow: 0 0 4px rgba(0,0,0, 0.08);
+}
+
+	.content_vagno:before {content:"\f06a"; }
+	.content_info:before {content:"\f05a"; }
+	.content_contact:before {content:"\f1d8";  font-size: 38px;  line-height: 38px; }
+
+	.content_vagno{background: #E9B8B8;}
+	.content_info{background: #D5D9E6;}
+	.content_contact{background: #DEE8D8; }
+
+	.content_img_responsive, .content_img_left, .content_img_right { padding: 3px; border: 1px #E2E2E2 solid; }
+
+	.content_img_left, .content_img_right { display: inline-block; }
+	.content_img_left { float: left; margin: 0 15px 5px 0; }
+	.content_img_right { float: right; margin: 0 0 5px 15px; }
+
+
+	.content_img_responsive img{
+		width: 100%;
+		height: auto;
+	}
+	.advanantages-item img{
+		width: 65%;
+	}
+	.advanantages-item {
+		display: flex;
+		align-items: center;
+		flex-direction: column;
+		padding: 4rem;
+	}
+
+
+/*
+
+Важно
+fa-exclamation-circle
+content:"\f06a";
+content:"\f071";
+
+
+Цитата
+content:"\f10d";
+
+Скидки
+content:"\f295";
+
+
+Часы
+content:"\f017";
+*/
+
+
+.index_title h2{
+	text-align:center !important;
+}
+/* End */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/menu/top_mobile/style.css?15930890461662 */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/menu/top_multi/style.css?16629332083625 */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/breadcrumb/main/style.css?15930890461091 */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/menu/left/style.css?15930890462991 */
+/* /bitrix/templates/kostroykaremont_main/styles.css?17415767992134 */

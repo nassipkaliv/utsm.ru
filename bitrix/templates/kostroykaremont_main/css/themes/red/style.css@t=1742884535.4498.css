@@ -1,0 +1,143 @@
+
+/*          red           */
+
+.about_n_block
+{
+    border: 7px solid red;
+}
+
+
+a,
+.index_contacts .social a,
+.logo .name,
+h2.title_content_more .fa,
+table.contacts_list .fa
+{
+    color: red;
+}
+
+.left_menu .nav li:hover { 
+    border-right: 3px red solid;
+    border-left: 3px red solid;
+    background: red; 
+    color: white !important; 
+}
+
+.index_contacts  li.active:hover {  background: red; }
+
+.btn-default,
+.index_slider .item .text>div a,
+.mb-slider .mb-panel.current .slider_top_color_bg_content,
+.bx_catalog-compare-list_sravn .kol,
+header .zayavka,
+.gallery h2 .fa,
+.form_index_zapros_search,
+header .home,
+.index_uslugi_new .nav-pills>li.active>a, .index_uslugi_new .nav-pills>li.active>a:hover, .index_uslugi_new .nav-pills>li.active>a:focus
+{
+    background: red;
+}
+
+.btn-default:hover, 
+.btn-default:active,
+.btn-default:focus{ 
+    background: red !important;
+    filter: grayscale(30%);
+}
+
+    .priem_one:hover, .priem_one.white:hover { 
+        background: red; 
+        color: white;
+    }
+
+.main_menu_gorizontal .nav-pills>li:hover{ border-bottom: 3px red solid; }
+
+.search_top_bottom[aria-expanded="true"] , .search_top_bottom.collapsed:hover {
+    border-bottom: 3px red solid;
+    background: rgba(255,255,255, .1);
+}
+
+.color_bg, .mb-slider .mb-panel.current .slider_top_color_bg_content
+ {
+    background: red;   
+    opacity: .8;
+    box-shadow: 0 0 0 30000px rgba(0,0,0, .9) inset;
+
+}
+
+
+.index_title.white h2>div>div.color {border-top: red solid 3px;}
+
+.priem { background: red; color: white; }
+
+.catalog_projects_index_one>div:hover { 
+    background: white;
+    color: red;
+    border: 2px white solid; 
+    box-shadow: 0 0 20px rgba(0,0,0, .2)
+}
+
+.catalog_projects_index_one>div:hover .btn { 
+    background: red;
+    color: white;
+    border: 2px red solid; 
+}
+
+.uslugi_index_one .btn,
+.content_index .btn
+{ border:  red solid 2px; font-family: normal;}
+.uslugi_index_one:hover .btn,
+
+.content_index .statiya:hover .btn
+{ background:   red; color: white; }
+
+.catalog_projects_index_one .btn{ border: 2px solid  red; color:black; }
+
+.catalog_projects_index_one>div:hover .link { 
+    color: white;
+    background: red;
+}
+
+.catalog_index_one:hover .btn { 
+    background: red; 
+    color: white; 
+    border-radius: 0 !important;
+    border-color: red;
+}
+
+.catalog_index_one>div:hover { border-color: red;  }
+
+.akcii:hover {  background: red; color: white; }
+
+.slider.brands .slick-slide a:hover { 
+    filter: grayscale(0); 
+    /*background: red;*/
+    border-color: red;
+}
+
+.index_contacts  li.active{ 
+    background: red;
+    border-color: red;
+    z-index: 2;
+}
+
+.index_contacts .social a:hover {
+    background: red;
+    color: white;
+    border-color: red;
+}
+
+.bx-filter .bx-ui-slider-handle { background: red !important; }
+.bx-filter.bx-black .bx-ui-slider-pricebar-v { 
+    background: red !important;
+    opacity: .20 !important;
+}
+
+.link_index_catalog_uslugi a:hover { background: red; color: white; }
+
+.mb-slider .mb-panel.current .item {    border-bottom: 5px red solid !important;}
+
+.footer .social a:hover, .footer .social a:focus { 
+    background: red;
+    color: white;
+}

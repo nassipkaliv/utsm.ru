@@ -1,0 +1,261 @@
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/menu/left/style.css?15930890462991*/
+
+.nav-stacked>li+li {
+    margin-top: 0 !important;
+}
+
+.left_menu { 
+    margin: 0 0 25px 0;
+    /*padding: 0 10px;*/
+    border-top: 3px #EEE solid;
+    border-bottom: 3px #EEE solid;
+
+}
+
+
+.left_menu:hover { box-shadow: 0 0 20px rgba(0,0,0, .1) }
+
+.left_menu .nav>li>a {
+     color: rgba(0, 0, 0, 1);
+    /*margin-right: 40px;*/
+    font-family: 'normal';
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+
+.left_menu .nav>li { 
+    /*border-bottom: 1px solid rgba(0,0,0, .15);*/
+    border-left: 3px #EEE solid;
+    border-right: 3px #EEE solid;
+    padding: 20px 15px 18px !important;
+}
+
+.left_menu li:hover a,
+.left_menu li.active:hover a{ 
+    color: white !important; 
+}
+
+.left_menu .nav>li:last-child { border-bottom: none;}
+.left_menu .nav>li>a { padding: 0;}
+
+/*.left_menu .nav>li:hover a { color: white !important;}*/
+
+.left_menu .nav-pills>li.active>a,
+ .left_menu .nav-pills>li.active>a:hover,
+ .left_menu .nav-pills>li.active>a:focus {
+    /*color: #ffffff;*/
+    color: rgba(0,0,0, .5);
+    background: none ;
+}
+
+.left_menu .nav-pills>li>a{
+    color: rgba(0,0,0, .9);
+}
+
+.left_menu .nav-pills li:hover a{
+    color: white;
+}
+
+.left_menu .nav-pills>li>a.menu_left_text:hover, 
+.left_menu .nav-pills>li>a.menu_left_text:focus,
+ .left_menu .nav-pills>li>a.menu_left_text:active {
+    color: white;
+	background: none !important;    
+}
+
+
+.left_menu .nav-pills>li.active>a.menu_left_text, .left_menu .nav-pills>li.active>a.menu_left_text:hover, .left_menu .nav-pills>li.active>a.menu_left_text:focus {
+    color: rgba(0,0,0, .4);
+	background: none !important;
+	/*color: black;*/
+}
+
+
+a.menu_left_arrow { 
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: -4px;
+     }
+
+.menu_left_arrow .fa{ margin: 3px 5px; font-size: 16px;}
+
+a.menu_left_arrow:hover, a.menu_left_arrow:focus, a.menu_left_arrow:active { 
+    background: rgba(255,255,255, .3) !important;
+     }     
+
+.nav-pills>li.active>.menu_left_arrow {
+     background: rgba(255,255,255, .3) !important;
+     color: black;
+}     
+
+/*li.active>.menu_left_arrow:hover,
+li.active>.menu_left_arrow:active,
+li.active>.menu_left_arrow:focus
+{background: rgba(255,255,255, .3) !important;}*/
+
+.left_menu .nav-pills>li.active>a.menu_left_text, 
+.left_menu .nav-pills>li.active>a.menu_left_text:hover, 
+.left_menu .nav-pills>li.active>a.menu_left_text:focus {
+     /*color: rgba(0,0,0, .5) !important; */
+     /*background: none !important;*/
+}     
+
+.menu_left_arrow.collapsed { color: black; }
+
+/*Субменю*/
+
+.left_menu .nav-pills>li>div>ul {
+    border-top: #ddd 1px dotted;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "normal";
+    line-height: 14pt;
+
+}
+
+.left_menu .nav-pills>li>div>ul li { padding: 5px 0; }
+
+.left_menu .nav-pills>li>div>ul li a {color: rgba(0,0,0, .8); }
+.left_menu .nav-pills>li>div>ul li a:hover{color: rgba(0,0,0, .5); }
+.left_menu .nav-pills>li>div>ul li.active a { opacity: .5 }
+
+
+
+
+/* End */
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/catalog/uslugi/style.css?1593089046697*/
+.grid{}
+.grid .bx_content_section{
+	margin-bottom: 15px;
+}
+.grid .bx_sidebar{
+	margin-bottom: 15px;
+}
+
+/* grid2x1 */
+.grid2x1{}
+.grid2x1 .bx_content_section{
+	float: left;
+	width: 66%;
+	margin-bottom: 15px;
+}
+.grid2x1 .bx_sidebar{
+	float: right;
+	width: 33%;
+	margin-bottom: 15px;
+	padding-left: 5%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+@media (max-width:960px){
+	.grid2x1 .bx_sidebar{
+		padding-left: 4%;
+	}
+}
+@media (max-width:640px) {
+	.grid2x1 .bx_content_section,
+	.grid2x1 .bx_sidebar{
+		width: 100%;
+		float: none;
+	}
+	.grid2x1 .bx_sidebar{
+		padding-left: 3%;
+	}
+}
+@media (max-width:479px){
+	.grid2x1 .bx_sidebar{
+		padding-left: 1%;
+	}
+
+}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/catalog.section.list/templates/.default/style.min.css?15930888016236*/
+.bx_catalog_line{margin-bottom:30px}.bx_catalog_line .bx_catalog_line_category_title{padding-bottom:14px;border-bottom:1px solid #e5e5e5;font-size:24px}.bx_catalog_line .bx_catalog_line_category_title a{color:#000;text-decoration:none}.bx_catalog_line .bx_catalog_line_ul{padding:0}.bx_catalog_line .bx_catalog_line_ul li{margin-bottom:20px;list-style:none}.bx_catalog_line .bx_catalog_line_ul li:before{content:''!important}.bx_catalog_line .bx_catalog_line_img{position:relative;display:block;float:left;overflow:hidden;margin-right:40px;width:125px;height:125px;border:1px solid #ccc;border-radius:2px;background-position:center;background-size:contain;background-repeat:no-repeat;-webkit-background-size:contain}.bx_catalog_line .bx_catalog_line_title{margin-bottom:10px;padding:0;vertical-align:top;line-height:18px}.bx_catalog_line .bx_catalog_line_title a{color:#4c7da6;font-size:18px}.bx_catalog_line .bx_catalog_line_title a:hover{text-decoration:none}.bx_catalog_line .bx_catalog_line_title span{font-size:16px}.bx_catalog_line .bx_catalog_line_description{color:#3f3f3f;font-size:13px;line-height:16px}@media(max-width:639px){.bx-touch .bx_catalog_line .bx_catalog_line_img{margin-right:10px;width:50px;height:50px}.bx-touch .bx_catalog_line .bx_catalog_line_title{margin-bottom:5px;line-height:14px}.bx-touch .bx_catalog_line .bx_catalog_line_title a{font-size:14px}.bx-touch .bx_catalog_line .bx_catalog_line_description{font-size:11px}}.bx_catalog_line .bx_catalog_line_img,.bx_catalog_line .bx_catalog_line_title,.bx_catalog_line .bx_catalog_line_title a,.bx_catalog_line .bx_catalog_line_description{transition:all .3s ease}.bx_catalog_text{margin-bottom:30px}.bx_catalog_text .bx_catalog_text_category_title{padding-bottom:14px;border-bottom:1px solid #e5e5e5;font-size:24px}.bx_catalog_text .bx_catalog_text_category_title a{color:#000;text-decoration:none}.bx_catalog_text .bx_catalog_text_ul{padding:0}.bx_catalog_text .bx_catalog_text_ul li{float:left;margin:0 10px 10px;list-style:none}.bx_catalog_text .bx_catalog_text_ul li:before{content:''!important}.bx_catalog_text .bx_catalog_text_title{margin:0;padding:0;vertical-align:top;font-size:14px;line-height:14px}.bx_catalog_tile .bx_catalog_tile_title a{display:inline-block;overflow:hidden;max-width:100%;color:#4c7da6;-ms-text-overflow:ellipsis;text-overflow:ellipsis;font-size:14px}.bx_catalog_text .bx_catalog_text_title a:hover{text-decoration:none}.bx_catalog_text .bx_catalog_text_title span{font-size:12px}@media(max-width:639px){.bx-touch .bx_catalog_text .bx_catalog_line_title{margin-bottom:5px;line-height:12px}.bx-touch .bx_catalog_text .bx_catalog_line_title a{font-size:12px}}.bx_catalog_text .bx_catalog_line_title,.bx_catalog_text .bx_catalog_line_title a{transition:all .3s ease}.bx_catalog_tile{margin-bottom:30px}.bx_catalog_tile .bx_catalog_tile_category_title{padding-bottom:14px;border-bottom:1px solid #e5e5e5;font-size:24px}.bx_catalog_tile .bx_catalog_tile_category_title a{color:#000;text-decoration:none}.bx_catalog_tile .bx_catalog_tile_ul{padding:0}.bx_catalog_tile .bx_catalog_tile_ul li{float:left;box-sizing:border-box;margin-bottom:20px;padding:0 10px;width:12.5%;list-style:none;text-align:center}.bx_catalog_tile .bx_catalog_tile_ul li:before{content:''!important}.bx_catalog_tile .bx_catalog_tile_ul li:nth-child(8n+1){clear:both}.bx_catalog_tile .bx_catalog_tile_img{position:relative;display:block;overflow:hidden;margin:0 auto;width:78px;height:78px;border:1px solid #ccc;border-radius:2px;background-color:#fff;background-position:center;background-size:contain;background-repeat:no-repeat;-webkit-background-size:contain}.bx_catalog_tile .bx_catalog_tile_title{margin-top:5px;margin-bottom:10px;padding:0;vertical-align:top;line-height:14px}.bx_catalog_tile .bx_catalog_tile_title a{color:#4c7da6;font-size:14px}.bx_catalog_tile .bx_catalog_tile_title a:hover{text-decoration:none}.bx_catalog_tile .bx_catalog_tile_title span{font-size:12px}@media(max-width:980px){.bx_catalog_tile .bx_catalog_tile_ul li{width:20%}.bx_catalog_tile .bx_catalog_tile_ul li:nth-child(8n+1){clear:none}.bx_catalog_tile .bx_catalog_tile_ul li:nth-child(5n+1){clear:both}}@media(max-width:639px){.bx-touch .bx_catalog_tile .bx_catalog_tile_title{margin-bottom:5px;line-height:14px}.bx-touch .bx_catalog_tile .bx_catalog_tile_title{line-height:10px}.bx-touch .bx_catalog_tile .bx_catalog_tile_title a{font-size:11px}}@media(min-width:480px) and (max-width:639px){.bx-touch .bx_catalog_tile .bx_catalog_tile_ul li{width:25%}.bx-touch .bx_catalog_tile .bx_catalog_tile_ul li:nth-child(8n+1){clear:none}.bx-touch .bx_catalog_tile .bx_catalog_tile_ul li:nth-child(5n+1){clear:none}.bx-touch .bx_catalog_tile .bx_catalog_tile_ul li:nth-child(4n+1){clear:both}}@media(max-width:479px){.bx-touch .bx_catalog_tile .bx_catalog_tile_ul li{width:33.3%}.bx-touch .bx_catalog_tile .bx_catalog_tile_img{width:100%;height:80px}.bx-touch .bx_catalog_tile .bx_catalog_tile_ul li:nth-child(8n+1){clear:none}.bx-touch .bx_catalog_tile .bx_catalog_tile_ul li:nth-child(5n+1){clear:none}.bx-touch .bx_catalog_tile .bx_catalog_tile_ul li:nth-child(3n+1){clear:both}}.bx_catalog_tile .bx_catalog_tile_title,.bx_catalog_tile .bx_catalog_tile_title a,.bx_catalog_tile .bx_catalog_tile_ul li,.bx_catalog_tile .bx_catalog_tile_img{transition:all .3s ease}.bx_sitemap{margin-bottom:30px}.bx_sitemap .bx_sitemap_title{padding-bottom:14px;border-bottom:1px solid #e5e5e5;font-size:24px}.bx_sitemap .bx_sitemap_title a{color:#000;text-decoration:none}.bx_sitemap .bx_sitemap_ul li{padding:0;line-height:14px}.bx_sitemap .bx_sitemap_ul li:before{content:''!important}.bx_sitemap .bx_sitemap_li_title{display:inline-block;margin:0;margin-bottom:10px;padding:0;vertical-align:top;font-weight:normal;line-height:13px}.bx_sitemap .bx_sitemap_li_title a{color:#4c7da6;white-space:nowrap;font-size:13px}.bx_sitemap .bx_sitemap_li_title a:hover{text-decoration:none}.bx_sitemap .bx_sitemap_li_title span{font-size:11px}@media(max-width:639px){.bx-touch .bx_sitemap .bx_catalog_line_title{margin-bottom:5px;line-height:12px}.bx-touch .bx_sitemap .bx_catalog_line_title a{font-size:12px}}.bx_sitemap .bx_catalog_line_title,.bx_sitemap .bx_catalog_line_title a{transition:all .3s ease}
+/* End */
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/system.pagenavigation/.default/style.css?15930890461171*/
+div.modern-page-navigation { 
+	padding: 22px 0;
+	font-size: 12px;
+}
+
+div.modern-page-navigation a, 
+span.modern-page-current, 
+span.modern-page-dots
+{
+	border-left-width: 1px;
+	/*border-left-style: solid;*/
+	text-decoration: none;
+	padding: 5px 8px;
+	color: #5B5B5B;
+}
+div.modern-page-navigation a.modern-page-previous { 
+	border-right-width: 1px; 
+	/*border-right-style: solid; */
+	border-left: none; }
+div.modern-page-navigation a.modern-page-first, 
+div.modern-page-navigation span.modern-page-first { 
+	border-left: none; 
+	padding-left: 0.5em; }
+
+span.modern-page-current { 
+	/*font-weight: bold;*/
+    background: #BEBEBE;
+    border-color: #BEBEBE;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: white;
+
+}
+
+.pagination {
+
+    margin-top: 15px !important;
+    margin-right: 5px !important;
+
+}
+
+.pagination>li>a {
+color: black !important;
+color: #5B5B5B !important;
+}
+
+
+.pagination>li.active>a {
+color: #9B9B9B !important;
+}
+
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+    z-index: 3;
+    background: none !important;
+    border-color: transparent;
+}
+
+/*i.fa {font-size: 14px; margin-top; 3px}*/
+/* End */
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/catalog.section/projects/style.css?159308904641*/
+.bx_sitemap { display: none !important; }
+/* End */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/menu/left/style.css?15930890462991 */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/catalog/uslugi/style.css?1593089046697 */
+/* /bitrix/components/bitrix/catalog.section.list/templates/.default/style.min.css?15930888016236 */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/system.pagenavigation/.default/style.css?15930890461171 */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/catalog.section/projects/style.css?159308904641 */

@@ -1,0 +1,191 @@
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/menu/left/style.css?15930890462991*/
+
+.nav-stacked>li+li {
+    margin-top: 0 !important;
+}
+
+.left_menu { 
+    margin: 0 0 25px 0;
+    /*padding: 0 10px;*/
+    border-top: 3px #EEE solid;
+    border-bottom: 3px #EEE solid;
+
+}
+
+
+.left_menu:hover { box-shadow: 0 0 20px rgba(0,0,0, .1) }
+
+.left_menu .nav>li>a {
+     color: rgba(0, 0, 0, 1);
+    /*margin-right: 40px;*/
+    font-family: 'normal';
+    text-transform: uppercase;
+    font-size: 12px;
+
+}
+
+
+.left_menu .nav>li { 
+    /*border-bottom: 1px solid rgba(0,0,0, .15);*/
+    border-left: 3px #EEE solid;
+    border-right: 3px #EEE solid;
+    padding: 20px 15px 18px !important;
+}
+
+.left_menu li:hover a,
+.left_menu li.active:hover a{ 
+    color: white !important; 
+}
+
+.left_menu .nav>li:last-child { border-bottom: none;}
+.left_menu .nav>li>a { padding: 0;}
+
+/*.left_menu .nav>li:hover a { color: white !important;}*/
+
+.left_menu .nav-pills>li.active>a,
+ .left_menu .nav-pills>li.active>a:hover,
+ .left_menu .nav-pills>li.active>a:focus {
+    /*color: #ffffff;*/
+    color: rgba(0,0,0, .5);
+    background: none ;
+}
+
+.left_menu .nav-pills>li>a{
+    color: rgba(0,0,0, .9);
+}
+
+.left_menu .nav-pills li:hover a{
+    color: white;
+}
+
+.left_menu .nav-pills>li>a.menu_left_text:hover, 
+.left_menu .nav-pills>li>a.menu_left_text:focus,
+ .left_menu .nav-pills>li>a.menu_left_text:active {
+    color: white;
+	background: none !important;    
+}
+
+
+.left_menu .nav-pills>li.active>a.menu_left_text, .left_menu .nav-pills>li.active>a.menu_left_text:hover, .left_menu .nav-pills>li.active>a.menu_left_text:focus {
+    color: rgba(0,0,0, .4);
+	background: none !important;
+	/*color: black;*/
+}
+
+
+a.menu_left_arrow { 
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    float: right;
+    margin-top: -4px;
+     }
+
+.menu_left_arrow .fa{ margin: 3px 5px; font-size: 16px;}
+
+a.menu_left_arrow:hover, a.menu_left_arrow:focus, a.menu_left_arrow:active { 
+    background: rgba(255,255,255, .3) !important;
+     }     
+
+.nav-pills>li.active>.menu_left_arrow {
+     background: rgba(255,255,255, .3) !important;
+     color: black;
+}     
+
+/*li.active>.menu_left_arrow:hover,
+li.active>.menu_left_arrow:active,
+li.active>.menu_left_arrow:focus
+{background: rgba(255,255,255, .3) !important;}*/
+
+.left_menu .nav-pills>li.active>a.menu_left_text, 
+.left_menu .nav-pills>li.active>a.menu_left_text:hover, 
+.left_menu .nav-pills>li.active>a.menu_left_text:focus {
+     /*color: rgba(0,0,0, .5) !important; */
+     /*background: none !important;*/
+}     
+
+.menu_left_arrow.collapsed { color: black; }
+
+/*Субменю*/
+
+.left_menu .nav-pills>li>div>ul {
+    border-top: #ddd 1px dotted;
+    margin-top: 10px;
+    padding-top: 10px;
+    
+    padding-left: 20px;
+    font-size: 14px;
+    font-family: "normal";
+    line-height: 14pt;
+
+}
+
+.left_menu .nav-pills>li>div>ul li { padding: 5px 0; }
+
+.left_menu .nav-pills>li>div>ul li a {color: rgba(0,0,0, .8); }
+.left_menu .nav-pills>li>div>ul li a:hover{color: rgba(0,0,0, .5); }
+.left_menu .nav-pills>li>div>ul li.active a { opacity: .5 }
+
+
+
+
+/* End */
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/catalog/uslugi/style.css?1593089046697*/
+.grid{}
+.grid .bx_content_section{
+	margin-bottom: 15px;
+}
+.grid .bx_sidebar{
+	margin-bottom: 15px;
+}
+
+/* grid2x1 */
+.grid2x1{}
+.grid2x1 .bx_content_section{
+	float: left;
+	width: 66%;
+	margin-bottom: 15px;
+}
+.grid2x1 .bx_sidebar{
+	float: right;
+	width: 33%;
+	margin-bottom: 15px;
+	padding-left: 5%;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+@media (max-width:960px){
+	.grid2x1 .bx_sidebar{
+		padding-left: 4%;
+	}
+}
+@media (max-width:640px) {
+	.grid2x1 .bx_content_section,
+	.grid2x1 .bx_sidebar{
+		width: 100%;
+		float: none;
+	}
+	.grid2x1 .bx_sidebar{
+		padding-left: 3%;
+	}
+}
+@media (max-width:479px){
+	.grid2x1 .bx_sidebar{
+		padding-left: 1%;
+	}
+
+}
+/* End */
+
+
+/* Start:/bitrix/components/bitrix/system.show_message/templates/.default/style.min.css?159308879951*/
+font.errortext{color:red}font.notetext{color:green}
+/* End */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/menu/left/style.css?15930890462991 */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/catalog/uslugi/style.css?1593089046697 */
+/* /bitrix/components/bitrix/system.show_message/templates/.default/style.min.css?159308879951 */

@@ -1,0 +1,109 @@
+
+
+/* Start:/bitrix/components/bitrix/map.yandex.system/templates/.default/style.css?1593088800666*/
+div.bx-yandex-map {color: black; font-size: 11px;}
+div.bx-yandex-map div.YMaps-b-balloon-content {color: black; font-size: 11px;}
+div.bx-popup-form div.bx-yandex-map div.YMaps-b-balloon-point div.YMaps-b-balloon div.YMaps-b-balloon-wrap table.YMaps-b-balloon-frame td {
+	padding: 0px !important;
+}
+
+
+div.bx-popup-form div.bx-yandex-map div.YMaps-b-balloon-point div.YMaps-b-balloon div.YMaps-b-balloon-wrap table.YMaps-b-balloon-frame td textarea{
+	font-size: 11px;
+}
+
+
+div.bx-popup-form div.bx-yandex-map div.YMaps-b-balloon-point div.YMaps-b-balloon div.YMaps-b-balloon-wrap table.YMaps-b-balloon-frame td.YMaps-b-balloon-b {
+	background-image: none !important;
+}
+
+/* End */
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/system.pagenavigation/.default/style.css?15930890461171*/
+div.modern-page-navigation { 
+	padding: 22px 0;
+	font-size: 12px;
+}
+
+div.modern-page-navigation a, 
+span.modern-page-current, 
+span.modern-page-dots
+{
+	border-left-width: 1px;
+	/*border-left-style: solid;*/
+	text-decoration: none;
+	padding: 5px 8px;
+	color: #5B5B5B;
+}
+div.modern-page-navigation a.modern-page-previous { 
+	border-right-width: 1px; 
+	/*border-right-style: solid; */
+	border-left: none; }
+div.modern-page-navigation a.modern-page-first, 
+div.modern-page-navigation span.modern-page-first { 
+	border-left: none; 
+	padding-left: 0.5em; }
+
+span.modern-page-current { 
+	/*font-weight: bold;*/
+    background: #BEBEBE;
+    border-color: #BEBEBE;
+    padding: 3px 8px;
+    border-radius: 3px;
+    color: white;
+
+}
+
+.pagination {
+
+    margin-top: 15px !important;
+    margin-right: 5px !important;
+
+}
+
+.pagination>li>a {
+color: black !important;
+color: #5B5B5B !important;
+}
+
+
+.pagination>li.active>a {
+color: #9B9B9B !important;
+}
+
+
+.pagination>li>a:hover, .pagination>li>span:hover, .pagination>li>a:focus, .pagination>li>span:focus {
+    z-index: 3;
+    background: none !important;
+    border-color: transparent;
+}
+
+/*i.fa {font-size: 14px; margin-top; 3px}*/
+/* End */
+
+
+/* Start:/bitrix/templates/kostroykaremont_main/components/bitrix/news.list/contacts/style.css?1618394431415*/
+table.contacts_list { margin-top: 15px; }
+
+table.contacts_list td, table.contacts_list th {
+	padding: 4px!important;
+    line-height: 1.42857143;
+    vertical-align: top;
+     border-top: none !important; 
+     font-size: 18px;
+
+}
+table.contacts_list th{ width: 40px; }
+table.contacts_list .fa {
+
+	width: 35px;
+	text-align: center;
+	font-size: 50px;
+}
+
+table.contacts_list small { font-size: 13px; margin-left: 7px}
+/* End */
+/* /bitrix/components/bitrix/map.yandex.system/templates/.default/style.css?1593088800666 */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/system.pagenavigation/.default/style.css?15930890461171 */
+/* /bitrix/templates/kostroykaremont_main/components/bitrix/news.list/contacts/style.css?1618394431415 */
